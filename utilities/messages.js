@@ -18,7 +18,7 @@ module.exports = function(graph_api){
   //Handle received message
   module._handleMessage = function(message) {
     let senderID = message.sender.id;
-    this._sendMessage(senderID, "Hello again and again!");
+    this._sendMessage(senderID, "Hello again and again! How is your day today?");
   }
 
   //Send message from the bot to the user
